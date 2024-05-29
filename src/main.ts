@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 import './01-basics.ts'
 import './02-type-annotations.ts'
+import './03-union-type.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
