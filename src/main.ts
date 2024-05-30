@@ -7,6 +7,7 @@ import './02-type-annotations.ts'
 import './03-union-type.ts'
 import './04-arrays.ts'
 import './05-objects.ts'
+import './06-functions.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
