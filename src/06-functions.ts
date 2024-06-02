@@ -18,3 +18,15 @@ function calDiscount(price:number): (number | string){
 
 const finalPrice = calDiscount(200)
 
+// Challenge
+
+const names: string[] = ['Peter', 'Sally', 'Adam']
+
+const checkName = (name: string): boolean => {
+    return names.includes(name)
+}
+
+checkName('Peter')
+checkName('Peter Parker')
+
+
